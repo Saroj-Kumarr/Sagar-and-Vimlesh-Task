@@ -1,9 +1,9 @@
 body {
   color: white;
- font-family: 'Dancing Script', cursive;
-font-family: 'Playfair Display', serif;
-letter-spacing:1px;
-overflow-x:hidden; 
+  font-family: "Dancing Script", cursive;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1px;
+  overflow-x: hidden;
 }
 
 .App {
@@ -210,55 +210,100 @@ overflow-x:hidden;
   top: 1.5rem;
 }
 
-
- .amenties{
-  margin-top:20px;
+.amenties {
+  margin-top: 20px;
   background-color: white;
   display: flex;
-  color:black;
+  color: black;
   flex-direction: column;
   justify-content: center;
 }
 
- .flex-amenties > div{
-  width:400px;
- }
+.flex-amenties > div {
+  width: 400px;
+}
 
- .flex-amenties{
-  padding-left:40px;
+.flex-amenties {
+  padding-left: 40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
- }
+}
 
- .be-center{
+.be-center {
   position: relative;
-  left:50%;
+  left: 50%;
   transform: translate(-80px);
- }
+}
 
-  .be-center h1{
-    position: relative;
-    left:-40px;
-  }
+.be-center h1 {
+  position: relative;
+  left: -40px;
+}
 
-   .amenties h5{
-    color: #1abc9c;
-   }
+.amenties h5 {
+  color: #1abc9c;
+}
 
-     .amenties h4{
-      position: relative;
-      top:10px;
-      color:#1abc9c;
-     }
+.amenties h4 {
+  position: relative;
+  top: 10px;
+  color: #1abc9c;
+}
 
-     .amenties .first-image{
-      margin:10px;
-      margin-left:70px;
-      margin-top:50px;
-     }
+.amenties .first-image {
+  margin: 10px;
+  margin-left: 70px;
+  margin-top: 50px;
+}
+
+.amenties .second-image {
+  margin: 100px;
+}
+
+.contact {
+  padding:20px;
+  background-color: #1c2540;
+  display: flex;
+  flex-direction: column;
+  margin-bottom:10px;
+}
+
+.contact form {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  padding: 12px;
+  border-radius: 10px;
+  margin: 5px;
+  color:white;
+  background-color: #1c2540;
+  border:2px solid white;
+}
+
+.sumbit {
+  background-color: #1abc9c;
+  border-radius: 10px;
+  padding:12px;
+  width:90px;
+   color:white;
+  border:2px solid white;
+  position: relative;
+  left:170px;
+}
 
 
-     .amenties .second-image{
-      margin:100px;
-     }
+.footer{
+  position: relative;
+  top:-10rem;
+  /* background-color: #F3F4FA; */
+}
+
+.footer img{
+  text-align: center;
+  position: relative;
+  left:7rem;
+}
